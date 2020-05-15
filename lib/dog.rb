@@ -3,8 +3,8 @@ attr_accessor :name
 @@all = []
 
 
-  def initialize(puppy)
-  @puppy = puppy
+  def initialize(name)
+  @name = name
   self.save
   end
 
