@@ -23,7 +23,7 @@ attr_accessor :puppy
   end
   
   def self.clear_all
-    
+  end
 end
 
 
