@@ -3,20 +3,20 @@ class Dog
 @@all = []
 
 
-def initialize(puppy)
+  def initialize(puppy)
   @puppy = puppy
   self.save
-end
+  end
 
-def self.all
+  def self.all
   @@all
-end
+  end
 
-def self.print_all
+  def self.print_all
   @@all.each do |puppy_name|
     puts puppy_name.puppy
- end 
-end
+   end 
+  end
   
   def save
     @@all << self
